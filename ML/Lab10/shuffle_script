@@ -1,0 +1,2 @@
+python2 ./random_splitter.py iris.data 9 1
+#python2 ./sgd.py data/train.data data/test.data

@@ -1,0 +1,1 @@
+python2 ./data_to_svm_labeled.py spambase.data.shuffled train 3450 test

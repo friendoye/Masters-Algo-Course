@@ -1,0 +1,7 @@
+task2 3 job
+job 1 task1 task2
+task1 4 subtask
+subtask 1 
+sleep 39
+idle 8
+play 3

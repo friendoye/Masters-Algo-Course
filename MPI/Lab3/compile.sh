@@ -1,0 +1,1 @@
+mpic++ lab3.cpp -o lab3

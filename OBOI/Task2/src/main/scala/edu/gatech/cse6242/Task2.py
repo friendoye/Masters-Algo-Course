@@ -1,0 +1,8 @@
+lines = sc.textFile("graph1.tsv")
+temp1 = lines.flatMap(lambda x: x.split("\n"))
+temp2 = temp1.map(lambda line: line.split(" "))
+temp3 = temp2.map(lambda triple: (int(triple[1]), long(triple[2])))
+temp4 = temp3.reduceByKey(lambda x, y: x + y).sortByKey()
+results = temp4.map(lambda x: "%s\t%s" % x).collect()
+with open("output.tsv", "w") as f:
+	f.write("\n".join(results))

@@ -1,0 +1,71 @@
+*.
+WARNING: using -h 0 may be faster
+*
+optimization finished, #iter = 1017
+nu = 0.565486
+obj = -1459.920545, rho = 6.179640
+nSV = 1771, nBSV = 1744
+Total nSV = 1771
+*
+optimization finished, #iter = 969
+nu = 0.567902
+obj = -1462.563429, rho = 6.321892
+nSV = 1771, nBSV = 1753
+Total nSV = 1771
+*.
+WARNING: using -h 0 may be faster
+*
+optimization finished, #iter = 1018
+nu = 0.568610
+obj = -1469.890820, rho = 6.209048
+nSV = 1778, nBSV = 1756
+Total nSV = 1778
+*.
+WARNING: using -h 0 may be faster
+*
+optimization finished, #iter = 1000
+nu = 0.566635
+obj = -1462.924911, rho = 6.319242
+nSV = 1769, nBSV = 1750
+Total nSV = 1769
+*
+optimization finished, #iter = 995
+nu = 0.570913
+obj = -1475.118221, rho = 6.354004
+nSV = 1784, nBSV = 1761
+Total nSV = 1784
+*
+optimization finished, #iter = 999
+nu = 0.563731
+obj = -1449.896349, rho = 6.329042
+nSV = 1760, nBSV = 1738
+Total nSV = 1760
+*.
+WARNING: using -h 0 may be faster
+*
+optimization finished, #iter = 1008
+nu = 0.565924
+obj = -1459.295069, rho = 6.326793
+nSV = 1769, nBSV = 1747
+Total nSV = 1769
+*
+optimization finished, #iter = 974
+nu = 0.566687
+obj = -1460.271767, rho = 6.250992
+nSV = 1767, nBSV = 1750
+Total nSV = 1767
+*.
+WARNING: using -h 0 may be faster
+*
+optimization finished, #iter = 1007
+nu = 0.566841
+obj = -1463.635604, rho = 6.164745
+nSV = 1774, nBSV = 1749
+Total nSV = 1774
+*
+optimization finished, #iter = 998
+nu = 0.564189
+obj = -1450.722617, rho = 6.417653
+nSV = 1759, nBSV = 1740
+Total nSV = 1759
+Cross Validation Accuracy = 85.6812%

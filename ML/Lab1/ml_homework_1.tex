@@ -1,0 +1,74 @@
+\documentclass[a4paper]{article}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage{amsmath,amssymb}
+\usepackage{indentfirst}
+\renewcommand\leq\leqslant
+\renewcommand\geq\geqslant
+\usepackage{titlesec}
+\titleformat{\section}{\Large\bfseries}{Задание \thesection}{1em}{}
+\titleformat{\subsection}{\bfseries}{Пункт \thesubsection}{1em}{}
+\author{Новик Никита, АСОБОИ-1}
+\title{Домашнее задание №1}
+\usepackage[top=2cm,left=3cm,right=1cm,bottom=2cm]{geometry}\begin{document}
+\maketitle
+\section{}
+\subsection{Условие}
+$$
+\begin{aligned}
+    &f: (0,+\infty) \rightarrow R,  \text{обратима} \\
+    &X - \text{СВ} \\
+    &\text{Доказать, что } \forall t > 0 : P(X>t) \leq f(t) \Rightarrow \forall \delta > 0 : P(X \leq f^{-1}(\delta)) \geq 1 - \delta
+\end{aligned}
+$$
+\subsection{Решение}
+Рассмотрим следующее выражение:
+\begin{equation}
+    0 \leq P(X > t) \leq f(t).
+\end{equation}
+
+Из этого следует:
+\begin{equation}
+    P(X \leq t) \geq 1 - f(t).
+\end{equation}
+
+Так функция $f(t)$ обратима, то $\delta$ можно представить в виде $\delta = f(t)$. Из этого получаем:
+\begin{equation}
+    P(X \leq f^{-1}(\delta)) \geq 1 - \delta
+\end{equation}
+
+\section{}
+
+Для того, чтобы доказать что в классе $h_p$ найдется классификатор, совпадающий с $h_S$, достаточно привести алгоритм построения многочлена для $h_p$ по $h_S$.
+
+Вначале выберем все такие $x_{ik}$, на которых $h_S(x_{ik}) = 1$. Затем построим многочлен 
+$$-(x-x_{i1})^2(x-x_{i2})^2\dots(x-x_{ik})^2.$$
+Этот многочлен принимает только отрицательные значения на всем $X=R$, кроме точек $x_{ik}$, где достигаются нулевые значения. Таким образом, мы построили такой многочлен для $h_p$, чтобы классификаторы совпадали.
+
+Так как в классе $h_p$ найдется классификатор, совпадающий с $h_S$, то при применении ERM-парадигмы в классе $h_p$ может произойти переобучение. А это значит, что применение ERM-парадигмы может приводить к плохим результатам.
+
+\section{}
+\subsection{}
+
+Пусть алгоритм А выбирает наименьший прямоугольник, содержащий все точки положительного класса. Построим с его помощью по произвольной тестовой выборке $S$ гипотезу $h^*$. Так как выполняется предположение о реализуемости и эмпирический риск $L_S(h^*) = 0$, то отсюда следует, что А является реализацией ERM-алгоритма.
+
+\subsection{Смотреть в third\_task.ipynb}
+
+\subsection{Смотреть в third\_task.ipynb}
+
+\subsection{Смотреть в third\_task.ipynb}
+
+$$
+10\% \rightarrow 42, 1\% \rightarrow 430, 0.1\% \rightarrow 3100
+$$
+\subsection{}
+
+При увеличении площади $X$ необходимый размер выборки уменьшается.
+
+При пропорциональном увеличении площади $Q$ и $X$ останется примерно таким же.
+
+При увеличении размерности $X$ останется примерно таким же.
+
+Результат должен зависеть от $D$, так как качество тренировочной выборки $S$ зависит от $D$, вероятность нерепрезентативной выборки $\delta$ зависит от $S$, а $m$ зависит $\delta$.
+\end{document}

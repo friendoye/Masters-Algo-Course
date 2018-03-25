@@ -1,0 +1,2 @@
+# Ctrl+p followed by Ctrl+q to quit Docker
+docker run --hostname=quickstart.cloudera --privileged=true -t -i -v /Users/friendoye/Desktop/ASOBOI/OBOI:/src --publish-all=true -p 8888 cloudera/quickstart /usr/bin/docker-quickstart
