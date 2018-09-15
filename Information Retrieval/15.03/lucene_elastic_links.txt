@@ -1,0 +1,15 @@
+http://graus.co/blog/pylucene-4-0-in-60-seconds-tutorial/
+http://www.elasticsearchtutorial.com/basic-elasticsearch-concepts.html
+http://www.elasticsearchtutorial.com/elasticsearch-in-5-minutes.html#Indexing
+https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-match-query.html
+https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html
+http://www.elasticsearchtutorial.com/spatial-search-tutorial.html
+https://marcobonzanini.com/2015/02/02/how-to-query-elasticsearch-with-python/
+https://gist.github.com/bonzanini/fe2ff32116f16e3009be#file-create_index-sh
+https://tryolabs.com/blog/2015/02/17/python-elasticsearch-first-steps/
+http://www.solrtutorial.com/basic-solr-concepts.html
+http://www.solrtutorial.com/solr-in-5-minutes.html
+http://solr-vs-elasticsearch.com/
+
+http://mike.teczno.com/notes/streaming-data-from-twitter.html
+http://snap.stanford.edu/data/memetracker9.html
